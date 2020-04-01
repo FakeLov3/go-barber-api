@@ -19,3 +19,6 @@
 * yarn add sequelize-cli -D
 * yarn add pg pg-hstore
 * yarn add sequelize
+
+* Criptografar Hash:
+- yarn add bcryptjs
