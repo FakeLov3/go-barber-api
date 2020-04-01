@@ -16,3 +16,6 @@
 * yarn sequelize migration:create --name=create-users
 * yarn sequelize db:migrate
 * yarn sequelize db:migrate:undo --> remove migrate of database
+* yarn add sequelize-cli -D
+* yarn add pg pg-hstore
+* yarn add sequelize
