@@ -1,19 +1,10 @@
 import Router from 'express';
 import UserController from './app/controllers/UserController';
+import SessionController from './app/controllers/SessionController';
 
 const routes = new Router();
 
 routes.post('/users', UserController.store);
-/* routes.get('/', async (req, res) => {
-    const user = await User.create({
-        name: 'Gustavo',
-        email: 'gustavo@gmail.com.br',
-        password_hash: '123223',
-    });
+routes.post('/sessions', SessionController.store);
 
-    return res.json(user);
-
-    /*  return res.json({
-        message: 'Hello World',
-    }); */
 module.exports = routes;
