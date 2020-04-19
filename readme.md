@@ -28,3 +28,7 @@
 
 -   yarn add jsonwebtoken
 -   bcrypt
+
+*   Validações:
+
+-   yarn add yup
