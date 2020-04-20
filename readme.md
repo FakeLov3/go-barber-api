@@ -11,12 +11,12 @@
 *   docker stop database
 *   docker ps -a --> all of containers
 
-*   MongoDB:
+*   MongoDB(BANCO DE DADOS Ñ RELACIONAL):
 
 *   docker run --name mongobarber -p 27017:27017 -d -t mongo
 *   yarn add mongoose
 
-*   Sequelize(ORM BANCO DE DADOS NOSQL):
+*   Sequelize(ORM BANCO DE DADOS RELACIONAL):
 
 *   yarn sequelize migration:create --name=create-users
 *   yarn sequelize db:migrate
