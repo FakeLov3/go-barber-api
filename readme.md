@@ -41,3 +41,8 @@
 *   Validações:
 
 -   yarn add yup
+
+*   Emails:
+
+-   yarn add nodemailer
+-   Mailtrap (ambiente de desenvolvimento apenas)
