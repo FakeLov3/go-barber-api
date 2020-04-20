@@ -24,6 +24,10 @@
 
 -   yarn add bcryptjs
 
+*   Datas
+
+-   yarn add date-fns@next
+
 *   Autenticação:
 
 -   yarn add jsonwebtoken
