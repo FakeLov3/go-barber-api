@@ -11,6 +11,12 @@
 *   docker stop database
 *   docker ps -a --> all of containers
 
+*   RedisDB
+
+    -   docker run --name redisbarber -p 6379:6379 -d -t redis:alpine
+    -   save emails
+    -   yarn add bee-queue (manipular filas no banco de dados)
+
 *   MongoDB(BANCO DE DADOS Ñ RELACIONAL):
 
 *   docker run --name mongobarber -p 27017:27017 -d -t mongo
