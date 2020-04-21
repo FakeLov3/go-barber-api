@@ -1,4 +1,5 @@
 -   API
+
 -   yarn init -y (start package.json)
 -   yarn add express
 -   yarn add sucrase nodemon(nodemon detecta alterações para reiniciar o servidor) -D
@@ -57,3 +58,7 @@
 
 -   yarn add express-handlebars
 -   yarn add nodemailer-express-handlebar
+
+*   Ferramenta para tratamento de erros
+
+-   yarn add express-async-errors
