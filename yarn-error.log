@@ -1,20 +1,30 @@
 Arguments: 
-  /usr/bin/node /usr/share/yarn/bin/yarn.js add nodemailer
+  /root/.nvm/versions/node/v12.13.1/bin/node /usr/share/yarn/bin/yarn.js add express-handlebars nodemailer-express
 
 PATH: 
-  /home/usuario/flutter/bin:/home/usuario/flutter/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/usuario/.pub-cache/bin:/home/usuario/flutter/bin:/home/usuario/flutter/.pub-cache/bin:/home/usuario/flutter/bin/cache/dart-sdk/bin:/home/usuario/.pub-cache/bin:/home/usuario/flutter/bin:/home/usuario/flutter/.pub-cache/bin:/home/usuario/flutter/bin/cache/dart-sdk/bin
+  /root/.nvm/versions/node/v12.13.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
 Yarn version: 
   1.21.1
 
 Node version: 
-  10.19.0
+  12.13.1
 
 Platform: 
   linux x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/home/usuario/VisualStudioCode/go-barber-api/node_modules/bl/node_modules/readable-stream/node_modules/safe-buffer/LICENSE'
+  Error: https://registry.yarnpkg.com/nodemailer-express: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66947:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
 
 npm manifest: 
   {
@@ -32,6 +42,7 @@ npm manifest:
       "jsonwebtoken": "^8.5.1",
       "mongoose": "^5.9.9",
       "multer": "^1.4.2",
+      "nodemailer": "^6.4.6",
       "pg": "^8.0.0",
       "pg-hstore": "^2.3.3",
       "sequelize": "^5.21.5",
@@ -1940,6 +1951,11 @@ Lockfile:
     version "1.0.0"
     resolved "https://registry.yarnpkg.com/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz#8d9dbe28964a4ac5712e9131642107c71e90ec40"
     integrity sha1-jZ2+KJZKSsVxLpExZCEHxx6Q7EA=
+  
+  nodemailer@^6.4.6:
+    version "6.4.6"
+    resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.4.6.tgz#d37f504f6560b36616f646a606894fe18819107f"
+    integrity sha512-/kJ+FYVEm2HuUlw87hjSqTss+GU35D4giOpdSfGp7DO+5h6RlJj7R94YaYHOkoxu1CSaM0d3WRBtCzwXrY6MKA==
   
   nodemon@^2.0.2:
     version "2.0.2"

@@ -46,3 +46,8 @@
 
 -   yarn add nodemailer
 -   Mailtrap (ambiente de desenvolvimento apenas)
+
+*   Templating Engines
+
+-   yarn add express-handlebars
+-   yarn add nodemailer-express-handlebar
