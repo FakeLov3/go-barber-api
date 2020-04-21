@@ -62,3 +62,7 @@
 *   Ferramenta para tratamento de erros
 
 -   yarn add express-async-errors
+
+*   Ambiente
+
+-   yarn add dotenv
